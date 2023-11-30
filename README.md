@@ -1,6 +1,6 @@
 # Zero-shot sketch-based remote sensing image retrieval based on multi-level and self-attention enabled tokenization mechanism
 In this repository, you can find the official PyTorch implementation of Self Attention Enabled Tokenization Mechanism
-![网络架构图](https://github.com/Snowstormfly/Cross-modal-retrieval-SAETM/assets/92164018/4891c53a-64fa-4e8d-8195-b3996511027b)
+![Uploading 网络架构图（新）.jpg…]()
 # Dataset
 We provides access to download the RSketch_Ext dataset from [Baidu web disk](https://pan.baidu.com/s/1ieAlTxqkKljcN0EJEk_w2A)
 
