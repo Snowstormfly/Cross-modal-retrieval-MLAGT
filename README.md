@@ -1,4 +1,4 @@
-# Zero-shot sketch-based remote sensing image retrieval based on multi-level and self-attention enabled tokenization mechanism
+# Zero-shot sketch-based remote sensing image retrieval based on multi-level and self-attention enabled tokenization
 In this repository, you can find the official PyTorch implementation of Self Attention Enabled Tokenization Mechanism
 ![网络架构图（新）](https://github.com/Snowstormfly/Cross-modal-retrieval-SAETM/assets/92164018/bd73d19b-34d2-4898-9392-a6e38a1a0ceb)
 
