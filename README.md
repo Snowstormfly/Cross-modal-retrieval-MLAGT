@@ -1,6 +1,5 @@
 # Zero-shot sketch-based remote sensing image retrieval based on multi-level and self-attention enabled tokenization mechanism
 In this repository, you can find the official PyTorch implementation of Self Attention Enabled Tokenization Mechanism
-![Uploading 网络架构图（新）.jpg…]()
 # Dataset
 We provides access to download the RSketch_Ext dataset from [Baidu web disk](https://pan.baidu.com/s/1ieAlTxqkKljcN0EJEk_w2A)
 
