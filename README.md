@@ -6,7 +6,7 @@ In this repository, you can find the official PyTorch implementation of Self Att
 We provides access to download the RSketch_Ext dataset from [Baidu web disk](https://pan.baidu.com/s/1ieAlTxqkKljcN0EJEk_w2A)
 
 # RSketch_Ext
-![数据集示例改](https://github.com/Snowstormfly/Cross-modal-retrieval-SAETM/assets/92164018/3aea5196-e28e-4a0f-8989-c9909ec68516)
+![数据集示例新](https://github.com/Snowstormfly/Cross-modal-retrieval-SAETM/assets/92164018/dc79aa0e-0fcd-487e-bcea-9d5569826526)
 
 # Train
 # pretrained ViT backbone
