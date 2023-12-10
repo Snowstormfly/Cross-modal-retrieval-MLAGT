@@ -52,3 +52,14 @@ You should place sam_ViT-B_16.pth in ./model and modify line 195 in ./model/self
   seed                 # random seed.
 </pre>
 
+<h2>Conclusion</h2>
+Thank you and sorry for the bugs!
+<h2>Author</h2>
+* Bo Yang <br>
+* Chen Wang <br>
+* Xiaoshuang Ma <br>
+* Beiping Song <br>
+* Zhuang Liu
+<h2>Citation</h2>
+<pre>
+</pre>
