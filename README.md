@@ -61,5 +61,6 @@ Thank you and sorry for the bugs!
 * Beiping Song <br>
 * Zhuang Liu
 <h2>Citation</h2>
+If you think this work is interesting, please cite:
 <pre>
 </pre>
