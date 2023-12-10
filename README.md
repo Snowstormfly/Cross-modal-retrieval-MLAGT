@@ -1,8 +1,14 @@
 # Zero-shot sketch-based remote sensing image retrieval based on multi-level and attention-guided tokenization
- <img src="https://img.shields.io/badge/python-3.7-green">https://img.shields.io/badge/pytorch-1.11-green
-
+ <img src="https://img.shields.io/badge/python-3.7-green"> <img src="https://img.shields.io/badge/pytorch-1.11-green">
+ 
 The repository is for the paper“Zero-shot sketch-based remote sensing image retrieval based on multi-level and attention-guided tokenization”. In this repository, you can find the official PyTorch implementation of multi-level and attention-guided tokenization network
 ![网络架构图（新）](https://github.com/Snowstormfly/Cross-modal-retrieval-SAETM/assets/92164018/bd73d19b-34d2-4898-9392-a6e38a1a0ceb)
+<h2>Requirements</h2>
+<pre>Python 3.7
+pytorch 1.11.0
+torchvision 0.12.0
+einops  0.6.1
+</pre>
 
 # Dataset
 We provides access to download the RSketch_Ext dataset from [Baidu web disk](https://pan.baidu.com/s/1ieAlTxqkKljcN0EJEk_w2A)
