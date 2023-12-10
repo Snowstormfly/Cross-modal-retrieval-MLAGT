@@ -14,7 +14,7 @@ einops  0.6.1
 We provides access to download the RSketch_Ext dataset from [Baidu web disk](https://pan.baidu.com/s/1ieAlTxqkKljcN0EJEk_w2A)
 You are free to divide the training set and the test set as you wish.  (Access Password：vnlc)
 <h3>RSketch_Ext</h2>
-![数据集示例新](https://github.com/Snowstormfly/Cross-modal-retrieval-MLAGT/assets/92164018/511437b3-bd70-46b9-acc5-0a7c505197de)
+![RSketch_Ext_dataset](https://github.com/Snowstormfly/Cross-modal-retrieval-MLAGT/assets/RSketch_Ext_dataset.png)
 
 # Train
 # pretrained ViT backbone
