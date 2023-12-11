@@ -1,4 +1,5 @@
-# Zero-shot sketch-based remote sensing image retrieval based on multi-level and attention-guided tokenization
+<h1>Zero-shot sketch-based remote sensing image retrieval based on multi-level and attention-guided tokenization</h1>
+
  <img src="https://img.shields.io/badge/python-3.7-green"> <img src="https://img.shields.io/badge/pytorch-1.11-green">
  
 The repository is for the paper“Zero-shot sketch-based remote sensing image retrieval based on multi-level and attention-guided tokenization”. In this repository, you can find the official PyTorch implementation of multi-level and attention-guided tokenization network
@@ -20,7 +21,7 @@ You are free to divide the training set and the test set as you wish.  (Access P
 <h3>Pretrained ViT backbone</h3>
 
 The pre-trained ViT model on ImageNet-1K is provided on [Baidu Web disk](https://pan.baidu.com/s/19065VR64vuScpRbKQdbuHA)
-You should place sam_ViT-B_16.pth in .\model and modify line 195 in .\model\self_attention.py to absolute path if necessary.  (Access Password：t6p1)
+You should place <pre>sam_ViT-B_16.pth</pre> in <pre>./model</pre> and modify line 195 in <pre>./model/self_attention.py</pre> to absolute path if necessary.  (Access Password：t6p1)
 <h3>Argument</h3>
 <pre>
 # dataset
