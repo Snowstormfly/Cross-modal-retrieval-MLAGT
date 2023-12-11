@@ -66,7 +66,7 @@ def train():
                 save_checkpoint(
                     {'model': model.state_dict(), 'epoch': epoch, 'map_all': accuracy,
                      'precision_100': precision},
-                    args.save, f'best_checkpoint_loss_S1')
+                    args.save, f'best_checkpoint_S1')
 
 
 if __name__ == '__main__':
