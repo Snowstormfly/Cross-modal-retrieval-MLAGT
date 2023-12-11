@@ -17,7 +17,7 @@ You are free to divide the training set and the test set as you wish.  (Access P
 <h3>RSketch_Ext</h2>
 
 ![RSketch_Ext_dataset](https://github.com/Snowstormfly/Cross-modal-retrieval-MLAGT/assets/92164018/13693513-6ce5-41d7-bc1a-ce74508debd8)
-<h2>Train</h2>
+<h2>Train and Test</h2>
 <h3>Pretrained ViT backbone</h3>
 
 The pre-trained ViT model on ImageNet-1K is provided on [Baidu Web disk](https://pan.baidu.com/s/19065VR64vuScpRbKQdbuHA)
