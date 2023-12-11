@@ -21,7 +21,7 @@ You are free to divide the training set and the test set as you wish.  (Access P
 <h3>Pretrained ViT backbone</h3>
 
 The pre-trained ViT model on ImageNet-1K is provided on [Baidu Web disk](https://pan.baidu.com/s/19065VR64vuScpRbKQdbuHA)
-You should place <pre>sam_ViT-B_16.pth</pre> in <pre>./model</pre> and modify line 195 in <pre>./model/self_attention.py</pre> to absolute path if necessary.  (Access Password：t6p1)
+You should place <code>sam_ViT-B_16.pth</code> in <code>./model</code> and modify line 195 in <code>./model/self_attention.py</code> to absolute path if necessary.  (Access Password：t6p1)
 <h3>Argument</h3>
 <pre>
 # dataset
