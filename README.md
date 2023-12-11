@@ -25,32 +25,32 @@ You should place <code>sam_ViT-B_16.pth</code> in <code>./model</code> and modif
 <h3>Argument</h3>
 <pre>
 # dataset
-  train_path           # path to load train data.
-  test_path            # path to load test data.
+  train_path              # path to load train data.
+  test_path               # path to load test data.
 # model
-  d_model              # feature dimension.
-  d_ff                 # fead-forward layer dimension.
-  head                 # number of cross_attention encoder head.
-  number               # number of cross_attention encoder layer.
-  pretrained           # whether to use pretrained ViT model.
+  d_model                 # feature dimension.
+  d_ff                    # fead-forward layer dimension.
+  head                    # number of cross_attention encoder head.
+  number                  # number of cross_attention encoder layer.
+  pretrained              # whether to use pretrained ViT model.
 # train
-  save                 # model save path.
-  batch                # batch size.
-  epoch                # train epoch.
-  datasetLen           # the amount of data training in a single batch.
-  learning_rate        # learning rate.
-  weight_decay         # weight_decay.
+  save                    # model save path.
+  batch                   # batch size.
+  epoch                   # train epoch.
+  datasetLen              # the amount of data training in a single batch.
+  learning_rate           # learning rate.
+  weight_decay            # weight_decay.
 # test
-  load                 # model load path.
-  test_sk              # testset number of incoming sketches in a single batch.
-  test_im              # testset number of incoming remote sensing image in a single batch.
-  num_workers          # dataloader num workers.
-  database_path        # preinfer remote sensing image database load path.
-  amount               # visualize the number of remote sensing images returned.
-  result_path          # accuracy evaluation result saving path.
+  load                    # model load path.
+  test_sk                 # testset number of incoming sketches in a single batch.
+  test_im                 # testset number of incoming remote sensing image in a single batch.
+  num_workers             # dataloader num workers.
+  database_path           # preinfer remote sensing image database load path.
+  amount                  # visualize the number of remote sensing images returned.
+  result_path             # accuracy evaluation result saving path.
 # other
-  choose_cuda          # cuda to use.
-  seed                 # random seed.
+  choose_cuda             # cuda to use.
+  seed                    # random seed.
 </pre>
 
 <h2>Conclusion</h2>
