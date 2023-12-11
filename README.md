@@ -63,4 +63,14 @@ Thank you and sorry for the bugs!
 <h2>Citation</h2>
 If you think this work is interesting, please cite:
 <pre>
+ @Article{Cross-modal-retrieval-MLAGT,
+    title={Zero-shot sketch-based remote sensing image retrieval based on multi-level and attention-guided tokenization},
+    author={Bo Yang, Chen Wang, Xiaoshuang Ma, Beiping Song and Zhuang Liu},
+    year={2023},
+    journal={},
+    volume={},
+    number={},
+    pages={},
+    doi={}
+}
 </pre>
