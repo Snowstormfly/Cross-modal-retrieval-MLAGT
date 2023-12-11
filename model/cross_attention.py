@@ -104,7 +104,6 @@ class MultiHeadedAttention(nn.Module):
 
 class PositionWiseFeedForward(nn.Module):
     """
-    d_model = 512
     d_ff = 1024 为论文中数值
     """
 
