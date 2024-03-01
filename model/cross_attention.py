@@ -117,20 +117,4 @@ class PositionWiseFeedForward(nn.Module):
         return self.w_2(self.dropout(F.relu(self.w_1(x))))
 
 
-class CrossAttention(nn.Module):
-    def __init__(self, args, h=12, n=1, d_model=768, d_ff=1024, dropout=0.1):
-        super(CrossAttention, self).__init__()
-        self.args = args
-        self.batch = args.batch
-        multi_head_attention = MultiHeadedAttention(h, d_model)
-        ffn = PositionWiseFeedForward(d_model, d_ff, dropout)
-        encoderLayer = EncoderLayer(d_model, multi_head_attention, ffn, dropout)
-        self.encoder = Encoder(encoderLayer, n)
-
-    def forward(self, x):
-        length = x.size(0)
-        x_sk = x[:length // 2]
-        x_im = x[length // 2:]
-        x_im, x_sk = self.encoder(x_im, x_sk)
-        return torch.cat((x_sk, x_im), dim=0)
 
