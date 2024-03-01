@@ -12,11 +12,12 @@ einops  0.6.1
 </pre>
 <h2>Dataset</h2>
 
-We provides access to download the RSketch_Ext dataset from [Baidu web disk](https://pan.baidu.com/s/1ieAlTxqkKljcN0EJEk_w2A)
-You are free to divide the training set and the test set as you wish.  (Access Password：vnlc)
+We provides access to download the RSketch_Ext dataset from [Baidu web disk](https://pan.baidu.com/s/1v584UD3wYO0VQxE4_59i6A)
+You are free to divide the training set and the test set as you wish.  (Access Password：xpmv)
 <h3>RSketch_Ext</h2>
 
-![RSketch_Ext_dataset](https://github.com/Snowstormfly/Cross-modal-retrieval-MLAGT/assets/92164018/13693513-6ce5-41d7-bc1a-ce74508debd8)
+![RSketch_Ext](https://github.com/Snowstormfly/Cross-modal-retrieval-MLAGT/assets/92164018/2a280ba8-ad2b-4281-92a5-738de05812dd)
+
 <h2>Train and Test</h2>
 <h3>Pretrained ViT backbone</h3>
 
