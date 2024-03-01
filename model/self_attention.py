@@ -7,21 +7,7 @@ import math
 MIN_NUM_PATCHES = 16
 
 
-class Multi_Level_Extract(nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.seq = nn.Sequential(
-            nn.Conv2d(3, 64, 7, 2, 3, bias=False),
-            nn.ReLU(inplace=True),
-            nn.Conv2d(64, 128, 3, 2, 1, bias=False),
-            nn.ReLU(inplace=True),
-            nn.Conv2d(128, 256, 3, 2, 1, bias=False),
-            nn.ReLU(inplace=True),
-            nn.Conv2d(256, 768, 3, 2, 1, bias=False),
-        )
 
-    def forward(self, x):
-        return self.seq(x)
 
 
 class MultiHeadDotProductAttention(nn.Module):
@@ -79,40 +65,6 @@ class FeedForward(nn.Module):
         return self.net(x)
 
 
-class Encoder1DBlock(nn.Module):
-    def __init__(self, input_shape, heads, mlp_dim, dtype=torch.float32, dropout_rate=0.1, attention_dropout_rate=0.1,
-                 deterministic=True):
-        super().__init__()
-        self.mlp_dim = mlp_dim
-        self.dtype = dtype
-        self.dropout_rate = dropout_rate
-        self.attention_dropout_rate = attention_dropout_rate
-        self.deterministic = deterministic
-        self.input_shape = input_shape
-        self.layer_norm_input = nn.LayerNorm(input_shape)
-        self.layer_norm_out = nn.LayerNorm(input_shape)
-
-        self.attention = MultiHeadDotProductAttention(input_shape, heads=heads)
-        self.mlp = FeedForward(input_shape, mlp_dim, dropout_rate)
-        self.drop_out_attention = nn.Dropout(attention_dropout_rate)
-
-    def forward(self, inputs, keep_rate):
-        x = self.layer_norm_input(inputs)
-        x, index, ind, class_attention, final_tokens = self.attention(x, keep_rate)
-        x = self.drop_out_attention(x)
-        x = x + inputs
-        
-        # B, N, C = x.shape
-        if index is not None:
-            non_class = x[:, 1:]
-            x_others = torch.gather(non_class, dim=1, index=index)    # [B, final_tokens, C]
-            x = torch.cat([x[:, 0:1], x_others], dim=1)     # [B, N+1, C] ->  [B, final_tokens+1, C]
-
-        y = self.layer_norm_out(x)
-        y = self.mlp(y)
-        
-        return x + y, final_tokens, ind
-    
 
 class Encoder(nn.Module):
     def __init__(self, input_shape, num_layers, heads, mlp_dim, inputs_positions=None, dropout_rate=0.1, train=True):
