@@ -16,7 +16,7 @@ We provides access to download the RSketch_Ext dataset from [Baidu web disk](htt
 You are free to divide the training set and the test set as you wish.  (Access Password：xpmv)
 <h3>RSketch_Ext</h2>
 
-![RSketch_Ext](https://github.com/Snowstormfly/Cross-modal-retrieval-MLAGT/assets/92164018/2a280ba8-ad2b-4281-92a5-738de05812dd)
+![数据集示例新](https://github.com/Snowstormfly/Cross-modal-retrieval-MLAGT/assets/92164018/99504cfd-85eb-4a7e-8b19-9c7e789e89c3)
 
 <h2>Train and Test</h2>
 <h3>Pretrained ViT backbone</h3>
@@ -67,12 +67,12 @@ If you think this work is interesting, please cite:
 <pre>
  @Article{Cross-modal-retrieval-MLAGT,
     title={Zero-shot sketch-based remote sensing image retrieval based on multi-level and attention-guided tokenization},
-    author={Bo Yang, Chen Wang, Xiaoshuang Ma, Beiping Song and Zhuang Liu},
-    year={2023},
-    journal={},
-    volume={},
-    number={},
-    pages={},
-    doi={}
-}
+    author={Bo Yang, Chen Wang, Xiaoshuang Ma, Beiping Song, Zhuang Liu and Fangde Sun},
+    year={2024},
+    journal={Remote Sensing},
+    volume={16},
+    number={10},
+    pages={1653},
+    doi={https://doi.org/10.3390/rs16101653}
+  }
 </pre>
