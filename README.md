@@ -61,7 +61,8 @@ Thank you and sorry for the bugs!
 * Chen Wang <br>
 * Xiaoshuang Ma <br>
 * Beiping Song <br>
-* Zhuang Liu
+* Zhuang Liu <br>
+* Fangde Sun
 <h2>Citation</h2>
 If you think this work is interesting, please cite:
 <pre>
