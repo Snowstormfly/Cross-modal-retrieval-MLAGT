@@ -2,7 +2,7 @@
 
  <img src="https://img.shields.io/badge/python-3.7-green"> <img src="https://img.shields.io/badge/pytorch-1.11-green">
  
-The repository is for the paper“Zero-shot sketch-based remote sensing image retrieval based on multi-level and attention-guided tokenization”. In this repository, you can find the official PyTorch implementation of multi-level and attention-guided tokenization network
+The repository is for the paper“Zero-Shot Sketch-Based Remote-Sensing Image Retrieval Based on Multi-Level and Attention-Guided Tokenization”. In this repository, you can find the official PyTorch implementation of multi-level and attention-guided tokenization network
 ![Network](https://github.com/Snowstormfly/Cross-modal-retrieval-MLAGT/assets/92164018/71876b52-61f5-4cb0-b8ed-fbf1a4e3e30f)
 <h2>Requirements</h2>
 <pre>Python 3.7
